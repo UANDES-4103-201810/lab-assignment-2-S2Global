@@ -1,0 +1,13 @@
+def sum_of_cubes(a,b)
+  c=a
+  d=0
+  f=0
+  while c<=b do
+    f+=(a+d)*(a+d)*(a+d)
+    c+=1
+    d+=1
+  end
+  puts("Sum: " + f.to_s)
+end
+
+sum_of_cubes(1,3)

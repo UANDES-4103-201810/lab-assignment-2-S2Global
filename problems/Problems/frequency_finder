@@ -1,0 +1,5 @@
+def frequency_finder(word,sentence)
+  puts(sentence.split(" ").count(word.downcase))
+  return sentence.split(" ").count(word.downcase)
+end
+frequency_finder("the","Hold the line, love isn't always on the time.")
